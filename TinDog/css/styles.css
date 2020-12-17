@@ -1,0 +1,183 @@
+body{
+  font-family: 'Montserrat';
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+/* Navigation-Bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrate-Light';
+}
+
+/* Download Button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Tital Image */
+
+.tital-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Features */
+
+#features{
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 7% 15%;
+  position: relative;
+  z-index:1;
+  background-color: #fff;
+}
+
+.features-content{
+  display: inline-block;
+  text-align: center;
+}
+
+.features-content i{
+  margin-bottom: 5%;
+  color: #ef8172;
+}
+
+.features-content i:hover{
+  color: #ff4c68
+}
+
+.features-content h3{
+  font-family: 'Montserrat-bold','Ubuntu';
+  font-size: 1.5rem;
+  font-weight:600;
+}
+
+.features-content p{
+  color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  font-family: 'Montserrat-bold','Ubuntu';
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  padding: 0 0 5% 0;
+  text-align: center;
+}
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 0 0 5%;
+}
+
+/* CTA Section */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#cta h3{
+  color: #fff;
+  font-family: 'Montserrate-bold','Ubuntu';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#cta button{
+  margin: 2%;
+}
+
+/* Footer-Section */
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+#footer p{
+  color: #8f8f8f;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+#footer i{
+  margin: 10px 6px;
+  font-size: 0.9rem;
+}
+
+/* Media Query */
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .tital-image{
+    transform: rotate(0);
+    position: relative;
+  }
+
+}
